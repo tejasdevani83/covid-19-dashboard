@@ -2,4 +2,7 @@
   .app {
     flex-direction: column;
   }
+  .app__right {
+    margin-top: 20px;
+  }
 }

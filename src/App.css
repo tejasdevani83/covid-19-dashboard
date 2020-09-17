@@ -10,6 +10,10 @@ body {
   margin-bottom: 20px;
   justify-content: space-between;
 }
+.app__header > h1 {
+  color: #cc1034;
+  font-size: 2rem;
+}
 .app__stats {
   display: flex;
   justify-content: space-between;
@@ -21,4 +25,37 @@ body {
 }
 .app__left {
   flex: 0.9;
+}
+.app_dropdown {
+  background-color: #fff;
+}
+.app__right {
+  display: flex;
+  flex-direction: column;
+}
+.app__right .MuiCardContent-root {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+}
+.app__graph {
+  flex-grow: 1;
+}
+.app__graphTitle {
+  margin: 20px 0;
+}
+.app__ownerInfo {
+  margin: auto;
+  padding: 0 20px 20px;
+  text-align: center;
+}
+.app__ownerInfo p {
+  font-size: 1.5rem !important;
+}
+.app__root {
+  display: flex;
+  flex-direction: column;
+}
+.MuiCardContent-root:last-child {
+  padding-bottom: 16px !important;
 }
